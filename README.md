@@ -1,6 +1,8 @@
 # Core Flex Grid Snippets for VS Code (v0.0.1)
 This Visual Studio Code extension adds snippets for Core Flex Grid
 
+[Core Flex Grid Documentation](https://splintercode.github.io/core-flex-grid/)
+
 ## Usage
 Type part of a snippet, press `enter`, then tab through the
 options to fill in the snippet.
