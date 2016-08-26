@@ -1,0 +1,20 @@
+{
+	"Flex Row": {
+		"prefix": "flex-row",
+		"body": [
+			"<div class=\"flex-row\">",
+			"  $1",
+			"</div>"
+		],
+		"description": "Create flex row"
+	},
+	"Flex Col": {
+		"prefix": "flex-col",
+		"body": [
+			"<div class=\"col-${col:col size}@${break:break point}\">",
+			"  $3",
+			"</div>"
+		],
+		"description": "Create flex column"
+	}
+}
