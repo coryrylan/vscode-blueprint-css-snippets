@@ -24,4 +24,4 @@ flex-col
 1. Choose the extension
 1. Reload Visual Studio Code
 
-![Use Extension](images/snippets.gif)
+![Use Extension](images/install.gif)
