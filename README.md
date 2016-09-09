@@ -1,5 +1,6 @@
-# Core Flex Grid Snippets for VS Code (v0.0.1)
-This Visual Studio Code extension adds snippets for Core Flex Grid
+# Core Flex Grid Snippets for VS Code (v0.0.2)
+This Visual Studio Code extension adds snippets for Core Flex Grid, a 
+Flexbox based CSS grid.
 
 [Core Flex Grid Documentation](https://splintercode.github.io/core-flex-grid/)
 
@@ -13,6 +14,7 @@ options to fill in the snippet.
 ```html
 flex-row
 flex-col
+flex-max
 ```
 
 ### Installation

@@ -2,10 +2,10 @@
     "name": "CoreFlexGrid",
     "publisher": "coryrylan",
     "displayName": "Core Flex Grid Snippets",
-    "description": "Core Flex Grid Snippets",
+    "description": "Snippets for the Core Flex Grid",
     "icon": "images/icon.png",
     "galleryBanner": {
-        "color": "#90D98A",
+        "color": "#232323",
         "theme": "dark"
     },
     "license": "SEE LICENSE IN LICENSE.md",
@@ -13,7 +13,7 @@
         "type": "git",
         "url": "https://github.com/splintercode/vscode-core-flex-grid-snippets.git"
     },
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "0.10.x"
     },

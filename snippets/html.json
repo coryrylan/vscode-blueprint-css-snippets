@@ -3,7 +3,9 @@
 		"prefix": "flex-row",
 		"body": [
 			"<div class=\"flex-row\">",
-			"  $1",
+			"  <div class=\"col-${col:colsize}@${break:breakpoint}\">",
+			"    $1",
+			"  </div>",
 			"</div>"
 		],
 		"description": "Create flex row"
@@ -11,10 +13,19 @@
 	"Flex Col": {
 		"prefix": "flex-col",
 		"body": [
-			"<div class=\"col-${col:col size}@${break:break point}\">",
+			"<div class=\"col-${col:colsize}@${break:breakpoint}\">",
 			"  $3",
 			"</div>"
 		],
 		"description": "Create flex column"
+	},
+	"Flex Max": {
+		"prefix": "flex-max",
+		"body": [
+			"<div class=\"col-${col:colsize}--max\">",
+			"  $3",
+			"</div>"
+		],
+		"description": "Create flex max wrapper"
 	}
 }
