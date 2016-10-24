@@ -1,8 +1,8 @@
 {
-    "name": "CoreFlexGrid",
+    "name": "blueprintcss",
     "publisher": "coryrylan",
-    "displayName": "Core Flex Grid Snippets",
-    "description": "Snippets for the Core Flex Grid",
+    "displayName": "Blueprint CSS Snippets",
+    "description": "Shorthand snippets for Blueprint CSS",
     "icon": "images/icon.png",
     "galleryBanner": {
         "color": "#232323",
@@ -11,9 +11,9 @@
     "license": "SEE LICENSE IN LICENSE.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/splintercode/vscode-core-flex-grid-snippets.git"
+        "url": "https://github.com/splintercode/vscode-blueprint-css-snippets.git"
     },
-    "version": "0.0.2",
+    "version": "0.0.4",
     "engines": {
         "vscode": "0.10.x"
     },

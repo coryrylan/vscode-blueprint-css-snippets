@@ -1,8 +1,8 @@
-# Core Flex Grid Snippets for VS Code (v0.0.2)
-This Visual Studio Code extension adds snippets for Core Flex Grid, a 
+# Blueprint CSS Snippets for VS Code (v0.0.2)
+This Visual Studio Code extension adds snippets for Blueprint CSS, a 
 Flexbox based CSS grid.
 
-[Core Flex Grid Documentation](https://splintercode.github.io/core-flex-grid/)
+[Blueprint CSS Documentation](https://blueprintcss.io)
 
 ## Usage
 Type part of a snippet, press `enter`, then tab through the
