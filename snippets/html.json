@@ -1,31 +1,40 @@
 {
-	"Flex Row": {
-		"prefix": "flex-row",
+	"BlueprintCSS Row": {
+		"prefix": "bp-row",
 		"body": [
-			"<div class=\"flex-row\">",
-			"  <div class=\"col-${col:colsize}@${break:breakpoint}\">",
-			"    $1",
+			"<div bp-layout=\"row\">",
+			"  <div bp-layout=\"col ${1:colsize}@${2:breakpoint}\">",
+			"    $3",
 			"  </div>",
 			"</div>"
 		],
-		"description": "Create flex row"
+		"description": "Create grid row"
 	},
-	"Flex Col": {
-		"prefix": "flex-col",
+	"BlueprintCSS Col": {
+		"prefix": "bp-col",
 		"body": [
-			"<div class=\"col-${col:colsize}@${break:breakpoint}\">",
+			"<div bp-layout=\"col ${1:colsize}@${2:breakpoint}\">",
 			"  $3",
 			"</div>"
 		],
-		"description": "Create flex column"
+		"description": "Create grid column"
 	},
-	"Flex Max": {
-		"prefix": "flex-max",
+	"BlueprintCSS Max": {
+		"prefix": "bp-max",
 		"body": [
-			"<div class=\"col-${col:colsize}--max\">",
+			"<div bp-layout=\"${1:colsize}--max\">",
+			"  $2",
+			"</div>"
+		],
+		"description": "Create max wrapper"
+	},
+	"BlueprintCSS Show": {
+		"prefix": "bp-show",
+		"body": [
+			"<div bp-layout=\"hide show@${2:breakpoint}\">",
 			"  $3",
 			"</div>"
 		],
-		"description": "Create flex max wrapper"
+		"description": "Show at brakepoint"
 	}
 }

@@ -1,4 +1,4 @@
-# Blueprint CSS Snippets for VS Code (v0.0.2)
+# Blueprint CSS Snippets for VS Code (v0.0.5)
 This Visual Studio Code extension adds snippets for Blueprint CSS, a 
 Flexbox based CSS grid.
 
@@ -12,9 +12,10 @@ options to fill in the snippet.
 
 ### HTML Snippets
 ```html
-flex-row
-flex-col
-flex-max
+bp-row
+bp-col
+bp-show
+bp-max
 ```
 
 ### Installation
