@@ -2,7 +2,7 @@
 This Visual Studio Code extension adds snippets for Blueprint CSS, a 
 Flexbox based CSS grid.
 
-[Blueprint CSS Documentation](https://blueprintcss.io)
+[Blueprint CSS Documentation](https://blueprintcss.dev)
 
 ## Usage
 Type part of a snippet, press `enter`, then tab through the
